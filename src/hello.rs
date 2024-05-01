@@ -2,3 +2,8 @@
 pub fn hello() -> &'static str {
     "Hello, World!"
 }
+
+#[test]
+fn hello_test() {
+    assert_eq!(hello(), "Hello, World!");
+}
