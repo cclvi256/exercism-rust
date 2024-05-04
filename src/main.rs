@@ -10,5 +10,6 @@ mod nth_prime;
 mod prime_factors;
 mod raindrops;
 mod reverse_string;
+mod clock;
 
 fn main() {}

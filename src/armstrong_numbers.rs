@@ -15,6 +15,7 @@ fn digits (n: u32) -> Vec<u32> {
         digits.push(n % 10);
         n /= 10;
     }
+    
     digits
 }
 
