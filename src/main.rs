@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
-}
+mod exercism;
+mod codewars;
+
+fn main() {}
